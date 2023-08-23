@@ -1,0 +1,31 @@
+.App {
+  background: #007513;
+}
+
+.ConnectWallet {  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.card {
+  background: transparent !important;
+  /* background: #ffffff70 !important; */
+  z-index: 3;
+}
+
+.mouse-mask {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+button[type="button"] {
+  background: #00ad1c !important;
+  border: none;
+}
+
